@@ -1,11 +1,13 @@
 {
   "name": "focustrack-landing",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "serve": "vite preview",
+  "postinstall": "chmod -R 755 node_modules/.bin"
+}
+,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
