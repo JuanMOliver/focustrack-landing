@@ -49,3 +49,4 @@ coverage
 
 # Duplicated project folder
 focustrack-landing/
+.vercel
