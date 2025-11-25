@@ -1,0 +1,40 @@
+# Dependências
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Builds anteriores
+dist/
+.next/
+out/
+
+# Arquivos de desenvolvimento
+.env.local
+.env.*.local
+
+# Arquivos do Git
+.git/
+.gitignore
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Pastas duplicadas
+focustrack-landing/
+
+# Testes
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
